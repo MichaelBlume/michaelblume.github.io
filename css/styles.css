@@ -1,0 +1,61 @@
+body { font-family: "Noto Sans", "Verdana", sans-serif; }
+
+.red { 
+    color: red; 
+    border-color: red;
+}
+.hearts {
+    background-color: #ffcccc;
+}
+.diamonds {
+    background-color: #ffeeee;
+}
+
+.black { 
+    color: black; 
+    border-color: black; 
+}
+.spades {
+    background-color: #cccccc; 
+}
+.clubs {
+    background-color: #eeeeee; 
+}
+
+
+.card, .no-card {
+    display: inline-block;
+    width: 1.75em;
+    padding: 0.25em; 
+    margin: 0.25em; 
+    text-align: center;
+}
+.card {
+    border: 1pt solid;
+}
+.no-card {
+    border: 1pt solid transparent;
+}
+
+.no-card.freecell {
+    background-color: #e0e8ff;
+}
+.no-card.column {
+    background-color: #e8e0ff;
+}
+
+.card-column {
+    display: inline-block;
+}
+.card-column-selected { background-color: #ccffcc; }
+
+.bottom-row { 
+    display: inline;
+}
+.bottom-row span {
+    display: inline-block;
+    padding: 0.25em;
+    margin: 0.25em;
+    color: #666699;
+    background-color: #ccccff;
+}
